@@ -1,6 +1,13 @@
 ---
 ---
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Source+Serif+4:wght@400;600&display=swap");
+
+$base-font-family: "Source Serif 4", Georgia, serif;
+$base-font-size: 18px;
 
 @import "minima";
+
+h1, h2, h3, .site-title, .post-title, .post-link {
+  font-family: "Inter", -apple-system, sans-serif;
+}
